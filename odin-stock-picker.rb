@@ -1,5 +1,4 @@
 def stock_picker(stock_array)
-  #magic code
   profit = 0
   buy_day = 0
   sell_day = 0
@@ -16,5 +15,4 @@ def stock_picker(stock_array)
   return [buy_day, sell_day]
 end
 
-# Test
 p stock_picker([17,3,6,9,15,8,6,1,10])
